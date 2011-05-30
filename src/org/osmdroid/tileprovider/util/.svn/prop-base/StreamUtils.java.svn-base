@@ -1,0 +1,7 @@
+K 13
+svn:mergeinfo
+V 315
+/branches/issue-43-jar/osmdroid-android/src/org/andnav/osm/tileprovider/StreamUtils.java:194-224
+/branches/issue-43-no-service/osmdroid-android/src/org/andnav/osm/tileprovider/StreamUtils.java:175-192
+/branches/issue-81-renderer-as-interface/osmdroid-android/src/org/andnav/osm/tileprovider/StreamUtils.java:328-353
+END
