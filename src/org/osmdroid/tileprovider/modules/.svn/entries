@@ -1,18 +1,18 @@
 10
 
 dir
-909
+991
 http://osmdroid.googlecode.com/svn/trunk/osmdroid-android/src/org/osmdroid/tileprovider/modules
 http://osmdroid.googlecode.com/svn
 
 
 
-2011-03-13T19:27:42.404160Z
-875
-kurtzmarc
+2011-10-24T08:45:37.134275Z
+991
+neilboyd
 
 
-svn:special svn:externals svn:needs-lock
+
 
 
 
@@ -26,16 +26,16 @@ svn:special svn:externals svn:needs-lock
 
 349629ee-b03d-11dd-8830-69e4bb380a4a
 
-ArchiveFileFactory.java
+MBTilesFileArchive.java
 file
-928
 
 
 
-2011-04-29T00:34:07.000000Z
-19b74cead99bb711de2edf2ef3cc313e
-2011-04-26T10:25:49.733319Z
-927
+
+2011-11-03T22:52:33.231715Z
+04d15e50f7de62aaa0c9591e65998357
+2011-09-02T05:32:34.609659Z
+984
 neilboyd
 
 
@@ -58,7 +58,41 @@ neilboyd
 
 
 
-1462
+2396
+
+ZipFileArchive.java
+file
+
+
+
+
+2011-02-08T23:01:36.000000Z
+e5a698a23e370631133f85ff301105b3
+2011-01-09T13:41:58.847166Z
+689
+neilboyd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1356
 
 DatabaseFileArchive.java
 file
@@ -94,17 +128,17 @@ neilboyd
 
 1832
 
-GEMFFileArchive.java
+MapTileModuleProviderBase.java
 file
 
 
 
 
-2011-02-08T23:01:36.000000Z
-f21cdb1f80cad84f36a864669f58378d
-2011-01-09T00:38:33.254179Z
-688
-ErikBurrows@gmail.com
+2011-07-22T20:25:56.331912Z
+c54f824e1e78356e18b8a03e897b9e55
+2011-06-03T20:16:25.048645Z
+938
+kurtzmarc
 
 
 
@@ -126,18 +160,18 @@ ErikBurrows@gmail.com
 
 
 
-952
+7818
 
-IArchiveFile.java
+MapTileFileArchiveProvider.java
 file
 
 
 
 
-2011-02-08T23:01:36.000000Z
-f7715bbd75bcb688dc3a7fe432ab3e54
-2011-01-06T11:24:09.286408Z
-680
+2011-11-03T22:52:33.231715Z
+26a7f3d2376c18d9b6f0ad4c887e1f55
+2011-10-24T08:45:18.994023Z
+990
 neilboyd
 
 
@@ -160,84 +194,16 @@ neilboyd
 
 
 
-452
+6266
 
-IFilesystemCache.java
+ArchiveFileFactory.java
 file
 
 
 
 
-2011-02-08T23:01:36.000000Z
-022b9ab7c2b7731f9128c448753ddc3c
-2011-01-02T22:55:08.621655Z
-633
-kurtzmarc
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-717
-
-INetworkAvailablityCheck.java
-file
-
-
-
-
-2011-02-08T23:01:36.000000Z
-ede25b1e0021a3b25072db1dcb19c150
-2011-01-02T15:47:06.742093Z
-617
-kurtzmarc
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-266
-
-MBTilesFileArchive.java
-file
-928
-
-
-
-2011-04-29T00:23:27.000000Z
-5b9c69ce06489ef54e6c386f6491563f
+2011-04-29T00:34:07.000000Z
+19b74cead99bb711de2edf2ef3cc313e
 2011-04-26T10:25:49.733319Z
 927
 neilboyd
@@ -262,7 +228,7 @@ neilboyd
 
 
 
-2415
+1462
 
 MapTileDownloader.java
 file
@@ -270,44 +236,10 @@ file
 
 
 
-2011-03-30T22:04:22.000000Z
-c4d23f94599db08d8ccc874bfa3bac9d
-2011-03-11T05:18:49.874794Z
-870
-kurtzmarc
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6463
-
-MapTileFileArchiveProvider.java
-file
-928
-
-
-
-2011-04-29T00:26:44.000000Z
-f22dab5487af8a6ce69716724088756d
-2011-04-26T10:25:49.733319Z
-927
+2011-07-22T20:25:56.331912Z
+1e3fda734f52b77cb8de1fad55c6f1ad
+2011-07-13T18:45:58.232779Z
+960
 neilboyd
 
 
@@ -330,41 +262,7 @@ neilboyd
 
 
 
-6133
-
-MapTileFileStorageProviderBase.java
-file
-
-
-
-
-2011-02-08T23:01:36.000000Z
-dfb67981b5bb9d5be14542e444c8ee7d
-2011-01-06T11:39:44.323827Z
-681
-neilboyd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2508
+6931
 
 MapTileFilesystemProvider.java
 file
@@ -400,16 +298,50 @@ kurtzmarc
 
 5672
 
-MapTileModuleProviderBase.java
+GEMFFileArchive.java
 file
 
 
 
 
-2011-03-30T22:04:20.000000Z
-8e1faa2e0596446e3ce7dd850dab5c07
-2011-03-13T19:27:42.404160Z
-875
+2011-02-08T23:01:36.000000Z
+f21cdb1f80cad84f36a864669f58378d
+2011-01-09T00:38:33.254179Z
+688
+ErikBurrows@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+952
+
+IFilesystemCache.java
+file
+
+
+
+
+2011-02-08T23:01:36.000000Z
+022b9ab7c2b7731f9128c448753ddc3c
+2011-01-02T22:55:08.621655Z
+633
 kurtzmarc
 
 
@@ -432,7 +364,75 @@ kurtzmarc
 
 
 
-7732
+717
+
+ConfigurablePriorityThreadFactory.java
+file
+
+
+
+
+2011-11-03T22:52:33.231715Z
+7b07994764634ac0139b95525613ee83
+2011-10-24T08:45:37.134275Z
+991
+neilboyd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+636
+
+INetworkAvailablityCheck.java
+file
+
+
+
+
+2011-02-08T23:01:36.000000Z
+ede25b1e0021a3b25072db1dcb19c150
+2011-01-02T15:47:06.742093Z
+617
+kurtzmarc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+266
 
 NetworkAvailabliltyCheck.java
 file
@@ -468,50 +468,16 @@ kurtzmarc
 
 1605
 
-TileWriter.java
-file
-928
-
-
-
-2011-04-29T00:27:25.000000Z
-b1d8169c3d63a98279fe89860263c58f
-2011-04-01T00:34:05.377557Z
-910
-kurtzmarc
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6912
-
-ZipFileArchive.java
+MapTileFileStorageProviderBase.java
 file
 
 
 
 
 2011-02-08T23:01:36.000000Z
-e5a698a23e370631133f85ff301105b3
-2011-01-09T13:41:58.847166Z
-689
+dfb67981b5bb9d5be14542e444c8ee7d
+2011-01-06T11:39:44.323827Z
+681
 neilboyd
 
 
@@ -534,5 +500,73 @@ neilboyd
 
 
 
-1356
+2508
+
+TileWriter.java
+file
+
+
+
+
+2011-07-22T20:25:56.291912Z
+dd80c9c848d53366da01369ab87b1fd8
+2011-06-03T20:29:42.133109Z
+939
+kurtzmarc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7325
+
+IArchiveFile.java
+file
+
+
+
+
+2011-02-08T23:01:36.000000Z
+f7715bbd75bcb688dc3a7fe432ab3e54
+2011-01-06T11:24:09.286408Z
+680
+neilboyd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+452
 

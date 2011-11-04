@@ -1,18 +1,18 @@
 10
 
 dir
-846
+991
 http://osmdroid.googlecode.com/svn/trunk/osmdroid-android/src/org/osmdroid/views
 http://osmdroid.googlecode.com/svn
 
 
 
-2011-03-02T09:27:41.019083Z
-842
-neilboyd
+2011-08-16T19:37:19.859117Z
+983
+kurtzmarc
 
 
-svn:special svn:externals svn:needs-lock
+
 
 
 
@@ -28,14 +28,51 @@ svn:special svn:externals svn:needs-lock
 
 MapController.java
 file
-909
 
 
 
-2011-03-30T22:18:27.000000Z
-a12e00568f1ff28b2f610ddc5983ed72
-2011-03-16T03:04:03.799952Z
-877
+
+2011-07-22T20:25:56.631912Z
+43721455f0c97ccf6eaacfc5cdb09669
+2011-07-12T20:54:24.360507Z
+957
+neilboyd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+22710
+
+overlay
+dir
+
+MapView.java
+file
+
+
+
+
+2011-11-03T22:52:33.263715Z
+6efadca2f881a4663603c1dd3cfa37e7
+2011-08-16T19:37:19.859117Z
+983
 kurtzmarc
 
 
@@ -58,44 +95,7 @@ kurtzmarc
 
 
 
-22711
-
-MapView.java
-file
-928
-
-
-
-2011-04-29T00:30:30.000000Z
-95a95f3a3450254a09b92921e6165c06
-2011-04-18T14:43:40.315026Z
-919
-neilboyd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-45376
-
-overlay
-dir
+45129
 
 util
 dir

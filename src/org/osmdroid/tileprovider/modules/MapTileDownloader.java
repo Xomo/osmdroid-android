@@ -1,6 +1,5 @@
 package org.osmdroid.tileprovider.modules;
 
-import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -8,9 +7,14 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.net.URL;
 import java.net.UnknownHostException;
 
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpUriRequest;
+import org.apache.http.impl.client.DefaultHttpClient;
 import org.osmdroid.tileprovider.MapTile;
 import org.osmdroid.tileprovider.MapTileRequestState;
 import org.osmdroid.tileprovider.tilesource.BitmapTileSourceBase.LowMemoryException;
@@ -21,15 +25,16 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import android.graphics.drawable.Drawable;
+import android.text.TextUtils;
 
 /**
  * The {@link MapTileDownloader} loads tiles from an HTTP server. It saves downloaded tiles to an
  * IFilesystemCache if available.
- * 
+ *
  * @author Marc Kurtz
  * @author Nicolas Gramlich
  * @author Manuel Stahl
- * 
+ *
  */
 public class MapTileDownloader extends MapTileModuleProviderBase {
 
@@ -118,9 +123,10 @@ public class MapTileDownloader extends MapTileModuleProviderBase {
 		// We are only interested in OnlineTileSourceBase tile sources
 		if (tileSource instanceof OnlineTileSourceBase) {
 			mTileSource = (OnlineTileSourceBase) tileSource;
-		} else
+		} else {
 			// Otherwise shut down the tile downloader
 			mTileSource = null;
+		}
 	}
 
 	// ===========================================================
@@ -132,8 +138,9 @@ public class MapTileDownloader extends MapTileModuleProviderBase {
 		@Override
 		public Drawable loadTile(final MapTileRequestState aState) throws CantContinueException {
 
-			if (mTileSource == null)
+			if (mTileSource == null) {
 				return null;
+			}
 
 			InputStream in = null;
 			OutputStream out = null;
@@ -143,21 +150,31 @@ public class MapTileDownloader extends MapTileModuleProviderBase {
 
 				if (mNetworkAvailablityCheck != null
 						&& !mNetworkAvailablityCheck.getNetworkAvailable()) {
-					if (DEBUGMODE)
+					if (DEBUGMODE) {
 						logger.debug("Skipping " + getName() + " due to NetworkAvailabliltyCheck.");
+					}
 					return null;
 				}
 
 				final String tileURLString = mTileSource.getTileURLString(tile);
 
-				if (DEBUGMODE)
+				if (DEBUGMODE) {
 					logger.debug("Downloading Maptile from url: " + tileURLString);
+				}
 
-				// TODO consider using apache HttpClient instead of openStream()
-				// - see http://groups.google.com/d/msg/osmdroid/uDK_SUNeyhs/obv4V2w3cZoJ
+				if (TextUtils.isEmpty(tileURLString)) {
+					return null;
+				}
 
-				in = new BufferedInputStream(new URL(tileURLString).openStream(),
-						StreamUtils.IO_BUFFER_SIZE);
+				final HttpClient client = new DefaultHttpClient();
+				final HttpUriRequest head = new HttpGet(tileURLString);
+				final HttpResponse response = client.execute(head);
+				final HttpEntity entity = response.getEntity();
+				if (entity == null) {
+					logger.warn("No content downloading MapTile: " + tile);
+					return null;
+				}
+				in = entity.getContent();
 
 				final ByteArrayOutputStream dataStream = new ByteArrayOutputStream();
 				out = new BufferedOutputStream(dataStream, StreamUtils.IO_BUFFER_SIZE);

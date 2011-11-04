@@ -1,18 +1,18 @@
 10
 
 dir
-909
+991
 http://osmdroid.googlecode.com/svn/trunk/osmdroid-android/src/microsoft/mappoint
 http://osmdroid.googlecode.com/svn
 
 
 
-2011-03-16T03:04:03.799952Z
-877
+2011-06-03T20:10:28.086525Z
+937
 kurtzmarc
 
 
-svn:special svn:externals svn:needs-lock
+
 
 
 
@@ -32,10 +32,10 @@ file
 
 
 
-2011-03-30T22:04:21.000000Z
-5ca2a8211d54eb92b1456d6939dd7a6e
-2011-03-16T03:04:03.799952Z
-877
+2011-07-22T20:25:56.001912Z
+5deceacf347926b8510b73a178ab9d74
+2011-06-03T20:10:28.086525Z
+937
 kurtzmarc
 has-props
 
@@ -58,5 +58,5 @@ has-props
 
 
 
-8630
+8578
 

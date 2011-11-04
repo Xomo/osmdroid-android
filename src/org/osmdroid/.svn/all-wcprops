@@ -1,19 +1,19 @@
 K 25
 svn:wc:ra_dav:version-url
 V 57
-/svn/!svn/ver/842/trunk/osmdroid-android/src/org/osmdroid
-END
-ResourceProxy.java
-K 25
-svn:wc:ra_dav:version-url
-V 76
-/svn/!svn/ver/859/trunk/osmdroid-android/src/org/osmdroid/ResourceProxy.java
+/svn/!svn/ver/991/trunk/osmdroid-android/src/org/osmdroid
 END
 DefaultResourceProxyImpl.java
 K 25
 svn:wc:ra_dav:version-url
 V 87
-/svn/!svn/ver/859/trunk/osmdroid-android/src/org/osmdroid/DefaultResourceProxyImpl.java
+/svn/!svn/ver/989/trunk/osmdroid-android/src/org/osmdroid/DefaultResourceProxyImpl.java
+END
+LocationListenerProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/857/trunk/osmdroid-android/src/org/osmdroid/LocationListenerProxy.java
 END
 SensorEventListenerProxy.java
 K 25
@@ -21,9 +21,9 @@ svn:wc:ra_dav:version-url
 V 87
 /svn/!svn/ver/857/trunk/osmdroid-android/src/org/osmdroid/SensorEventListenerProxy.java
 END
-LocationListenerProxy.java
+ResourceProxy.java
 K 25
 svn:wc:ra_dav:version-url
-V 84
-/svn/!svn/ver/857/trunk/osmdroid-android/src/org/osmdroid/LocationListenerProxy.java
+V 76
+/svn/!svn/ver/988/trunk/osmdroid-android/src/org/osmdroid/ResourceProxy.java
 END

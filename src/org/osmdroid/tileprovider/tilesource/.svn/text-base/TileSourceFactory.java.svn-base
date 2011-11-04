@@ -3,12 +3,10 @@ package org.osmdroid.tileprovider.tilesource;
 import java.util.ArrayList;
 
 import org.osmdroid.ResourceProxy;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class TileSourceFactory {
 
-	private static final Logger logger = LoggerFactory.getLogger(TileSourceFactory.class);
+	// private static final Logger logger = LoggerFactory.getLogger(TileSourceFactory.class);
 
 	/**
 	 * Get the tile source with the specified name.
@@ -21,12 +19,20 @@ public class TileSourceFactory {
 	 */
 	public static ITileSource getTileSource(final String aName) throws IllegalArgumentException {
 		for (final ITileSource tileSource : mTileSources) {
-			// TODO perhaps we should ignore case and white space
 			if (tileSource.name().equals(aName)) {
 				return tileSource;
 			}
 		}
 		throw new IllegalArgumentException("No such tile source: " + aName);
+	}
+
+	public static boolean containsTileSource(final String aName) {
+		for (final ITileSource tileSource : mTileSources) {
+			if (tileSource.name().equals(aName)) {
+				return true;
+			}
+		}
+		return false;
 	}
 
 	/**
@@ -50,7 +56,7 @@ public class TileSourceFactory {
 		return mTileSources;
 	}
 
-	public static void addTileSource(ITileSource mTileSource) {
+	public static void addTileSource(final ITileSource mTileSource) {
 		mTileSources.add(mTileSource);
 	}
 
@@ -92,13 +98,20 @@ public class TileSourceFactory {
 			"http://a.tile.cloudmade.com/%s/%d/%d/%d/%d/%d%s?token=%s",
 			"http://b.tile.cloudmade.com/%s/%d/%d/%d/%d/%d%s?token=%s",
 			"http://c.tile.cloudmade.com/%s/%d/%d/%d/%d/%d%s?token=%s");
-	
+
 	public static final OnlineTileSourceBase MAPQUESTOSM =
 		new XYTileSource("MapquestOSM", ResourceProxy.string.mapquest_osm, 0, 18, 256, ".png",
 				"http://otile1.mqcdn.com/tiles/1.0.0/osm/",
 				"http://otile2.mqcdn.com/tiles/1.0.0/osm/",
 				"http://otile3.mqcdn.com/tiles/1.0.0/osm/",
 				"http://otile4.mqcdn.com/tiles/1.0.0/osm/");
+
+	public static final OnlineTileSourceBase MAPQUESTAERIAL =
+		new XYTileSource("MapquestAerial", ResourceProxy.string.mapquest_aerial, 0, 11, 256, ".png",
+				"http://oatile1.mqcdn.com/naip/",
+				"http://oatile2.mqcdn.com/naip/",
+				"http://oatile3.mqcdn.com/naip/",
+				"http://oatile4.mqcdn.com/naip/");
 
 	public static final OnlineTileSourceBase DEFAULT_TILE_SOURCE = MAPNIK;
 
@@ -130,5 +143,6 @@ public class TileSourceFactory {
 		mTileSources.add(CLOUDMADESTANDARDTILES);
 		mTileSources.add(CLOUDMADESMALLTILES);
 		mTileSources.add(MAPQUESTOSM);
+		mTileSources.add(MAPQUESTAERIAL);
 	}
 }

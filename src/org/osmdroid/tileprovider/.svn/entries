@@ -1,18 +1,18 @@
 10
 
 dir
-846
+991
 http://osmdroid.googlecode.com/svn/trunk/osmdroid-android/src/org/osmdroid/tileprovider
 http://osmdroid.googlecode.com/svn
 
 
 
-2011-02-27T05:26:20.200068Z
-838
-kurtzmarc
+2011-10-24T08:45:37.134275Z
+991
+neilboyd
 
 
-svn:special svn:externals svn:needs-lock
+
 
 
 
@@ -26,16 +26,16 @@ svn:special svn:externals svn:needs-lock
 
 349629ee-b03d-11dd-8830-69e4bb380a4a
 
-IMapTileProviderCallback.java
+MapTileCache.java
 file
 
 
 
 
-2011-02-08T23:01:36.000000Z
-1e24905739085043b5305771ec351686
-2011-01-02T22:55:08.621655Z
-633
+2011-07-22T20:25:56.371912Z
+fc2cf1b16364d31b3b4cbf5a14f8d7bb
+2011-05-15T22:57:30.044271Z
+933
 kurtzmarc
 
 
@@ -58,7 +58,41 @@ kurtzmarc
 
 
 
-1087
+3017
+
+MapTileProviderBase.java
+file
+
+
+
+
+2011-03-02T21:47:23.000000Z
+54eaf8b8232c27e0d6e64346d90262a0
+2011-02-26T23:21:47.088800Z
+832
+kurtzmarc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4881
 
 IRegisterReceiver.java
 file
@@ -100,11 +134,11 @@ file
 
 
 
-2011-02-08T23:01:36.000000Z
-be651f6fc5f243024827fc50206ec868
-2011-01-02T22:55:08.621655Z
-633
-kurtzmarc
+2011-11-03T23:20:27.095640Z
+fdbbce05d63dab4f1ecf681320ef671d
+2011-10-24T08:45:37.134275Z
+991
+neilboyd
 
 
 
@@ -126,75 +160,7 @@ kurtzmarc
 
 
 
-1565
-
-MapTile.java
-file
-
-
-
-
-2011-02-08T23:01:36.000000Z
-3f2264ba653b8f5db3bee097093babbb
-2011-01-02T22:57:05.071698Z
-634
-kurtzmarc
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1578
-
-MapTileCache.java
-file
-
-
-
-
-2011-02-08T23:01:36.000000Z
-ee4eb2f8c2f19e2897d0fb83c3daf867
-2011-01-02T22:55:08.621655Z
-633
-kurtzmarc
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2928
+1537
 
 MapTileProviderArray.java
 file
@@ -202,11 +168,11 @@ file
 
 
 
-2011-02-08T23:01:36.000000Z
-3260820fad99a7a3eba5f38567be4620
-2011-02-04T04:23:57.929707Z
-774
-kurtzmarc
+2011-11-03T22:52:33.255715Z
+ab8b0dd6de27ed01088f0ad49c8c534d
+2011-09-02T05:36:23.292151Z
+985
+neilboyd
 
 
 
@@ -228,75 +194,7 @@ kurtzmarc
 
 
 
-6612
-
-MapTileProviderBase.java
-file
-
-
-
-
-2011-03-02T21:47:23.000000Z
-54eaf8b8232c27e0d6e64346d90262a0
-2011-02-26T23:21:47.088800Z
-832
-kurtzmarc
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4881
-
-MapTileProviderBasic.java
-file
-
-
-
-
-2011-02-08T23:01:36.000000Z
-9a4e1b40fe41326698b7aeee7c6916b7
-2011-02-04T04:23:57.929707Z
-774
-kurtzmarc
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2450
+6621
 
 MapTileRequestState.java
 file
@@ -332,15 +230,117 @@ kurtzmarc
 
 1192
 
-constants
-dir
+MapTileProviderBasic.java
+file
+
+
+
+
+2011-02-08T23:01:36.000000Z
+9a4e1b40fe41326698b7aeee7c6916b7
+2011-02-04T04:23:57.929707Z
+774
+kurtzmarc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2450
 
 modules
 dir
 
-tilesource
+MapTile.java
+file
+
+
+
+
+2011-02-08T23:01:36.000000Z
+3f2264ba653b8f5db3bee097093babbb
+2011-01-02T22:57:05.071698Z
+634
+kurtzmarc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1578
+
+IMapTileProviderCallback.java
+file
+
+
+
+
+2011-02-08T23:01:36.000000Z
+1e24905739085043b5305771ec351686
+2011-01-02T22:55:08.621655Z
+633
+kurtzmarc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1087
+
+constants
 dir
 
 util
+dir
+
+tilesource
 dir
 

@@ -1,18 +1,18 @@
 10
 
 dir
-785
+991
 http://osmdroid.googlecode.com/svn/trunk/osmdroid-android
 http://osmdroid.googlecode.com/svn
 
 
 
-2011-02-08T08:40:36.658041Z
-784
+2011-10-24T08:45:37.134275Z
+991
 neilboyd
 has-props
 
-svn:special svn:externals svn:needs-lock
+
 
 
 
@@ -32,7 +32,7 @@ file
 
 
 
-2011-02-08T23:01:36.000000Z
+2011-11-03T22:59:14.895697Z
 99c519814d08facd818affdfb56a8ff9
 2010-12-14T09:47:12.259254Z
 542
@@ -59,6 +59,15 @@ neilboyd
 
 
 608
+
+ext
+dir
+
+assets
+dir
+
+tests
+dir
 
 .project
 file
@@ -94,19 +103,22 @@ neilboyd
 
 392
 
-assets
+lib
+dir
+
+src
 dir
 
 build-jar.xml
 file
-909
 
 
 
-2011-03-30T22:15:00.000000Z
-80655bb6c4a5c22f97ea4850b49bceb5
-2011-03-23T12:56:29.538767Z
-893
+
+2011-11-03T22:52:33.275715Z
+bca3ee47ecadf78785ca9e82325b0a76
+2011-07-24T18:03:11.057059Z
+974
 neilboyd
 
 
@@ -131,52 +143,18 @@ neilboyd
 
 1863
 
+docs
+dir
+
 build.xml
 file
 
 
 
 
-2011-02-08T23:01:37.000000Z
-b4884dc853a214046213fb53c3401129
-2010-12-15T06:31:40.912805Z
-543
+
+0724b2c9f686d9fdbf91a117fbcafe4f
+2011-02-23T09:16:20.289832Z
+819
 neilboyd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3719
-
-docs
-dir
-
-ext
-dir
-
-lib
-dir
-
-src
-dir
-
-tests
-dir
 

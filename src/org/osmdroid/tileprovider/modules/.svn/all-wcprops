@@ -1,7 +1,55 @@
 K 25
 svn:wc:ra_dav:version-url
 V 78
-/svn/!svn/ver/875/trunk/osmdroid-android/src/org/osmdroid/tileprovider/modules
+/svn/!svn/ver/991/trunk/osmdroid-android/src/org/osmdroid/tileprovider/modules
+END
+MBTilesFileArchive.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/984/trunk/osmdroid-android/src/org/osmdroid/tileprovider/modules/MBTilesFileArchive.java
+END
+ZipFileArchive.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/689/trunk/osmdroid-android/src/org/osmdroid/tileprovider/modules/ZipFileArchive.java
+END
+DatabaseFileArchive.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/708/trunk/osmdroid-android/src/org/osmdroid/tileprovider/modules/DatabaseFileArchive.java
+END
+MapTileModuleProviderBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/938/trunk/osmdroid-android/src/org/osmdroid/tileprovider/modules/MapTileModuleProviderBase.java
+END
+MapTileFileArchiveProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/990/trunk/osmdroid-android/src/org/osmdroid/tileprovider/modules/MapTileFileArchiveProvider.java
+END
+ArchiveFileFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/927/trunk/osmdroid-android/src/org/osmdroid/tileprovider/modules/ArchiveFileFactory.java
+END
+MapTileDownloader.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/960/trunk/osmdroid-android/src/org/osmdroid/tileprovider/modules/MapTileDownloader.java
+END
+MapTileFilesystemProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/870/trunk/osmdroid-android/src/org/osmdroid/tileprovider/modules/MapTileFilesystemProvider.java
 END
 GEMFFileArchive.java
 K 25
@@ -15,47 +63,11 @@ svn:wc:ra_dav:version-url
 V 100
 /svn/!svn/ver/633/trunk/osmdroid-android/src/org/osmdroid/tileprovider/modules/IFilesystemCache.java
 END
-MapTileFileArchiveProvider.java
+ConfigurablePriorityThreadFactory.java
 K 25
 svn:wc:ra_dav:version-url
-V 110
-/svn/!svn/ver/927/trunk/osmdroid-android/src/org/osmdroid/tileprovider/modules/MapTileFileArchiveProvider.java
-END
-ArchiveFileFactory.java
-K 25
-svn:wc:ra_dav:version-url
-V 102
-/svn/!svn/ver/927/trunk/osmdroid-android/src/org/osmdroid/tileprovider/modules/ArchiveFileFactory.java
-END
-DatabaseFileArchive.java
-K 25
-svn:wc:ra_dav:version-url
-V 103
-/svn/!svn/ver/708/trunk/osmdroid-android/src/org/osmdroid/tileprovider/modules/DatabaseFileArchive.java
-END
-MapTileFilesystemProvider.java
-K 25
-svn:wc:ra_dav:version-url
-V 109
-/svn/!svn/ver/870/trunk/osmdroid-android/src/org/osmdroid/tileprovider/modules/MapTileFilesystemProvider.java
-END
-ZipFileArchive.java
-K 25
-svn:wc:ra_dav:version-url
-V 98
-/svn/!svn/ver/689/trunk/osmdroid-android/src/org/osmdroid/tileprovider/modules/ZipFileArchive.java
-END
-TileWriter.java
-K 25
-svn:wc:ra_dav:version-url
-V 94
-/svn/!svn/ver/910/trunk/osmdroid-android/src/org/osmdroid/tileprovider/modules/TileWriter.java
-END
-MapTileDownloader.java
-K 25
-svn:wc:ra_dav:version-url
-V 101
-/svn/!svn/ver/870/trunk/osmdroid-android/src/org/osmdroid/tileprovider/modules/MapTileDownloader.java
+V 117
+/svn/!svn/ver/991/trunk/osmdroid-android/src/org/osmdroid/tileprovider/modules/ConfigurablePriorityThreadFactory.java
 END
 INetworkAvailablityCheck.java
 K 25
@@ -63,11 +75,11 @@ svn:wc:ra_dav:version-url
 V 108
 /svn/!svn/ver/617/trunk/osmdroid-android/src/org/osmdroid/tileprovider/modules/INetworkAvailablityCheck.java
 END
-MapTileModuleProviderBase.java
+NetworkAvailabliltyCheck.java
 K 25
 svn:wc:ra_dav:version-url
-V 109
-/svn/!svn/ver/875/trunk/osmdroid-android/src/org/osmdroid/tileprovider/modules/MapTileModuleProviderBase.java
+V 108
+/svn/!svn/ver/626/trunk/osmdroid-android/src/org/osmdroid/tileprovider/modules/NetworkAvailabliltyCheck.java
 END
 MapTileFileStorageProviderBase.java
 K 25
@@ -75,21 +87,15 @@ svn:wc:ra_dav:version-url
 V 114
 /svn/!svn/ver/681/trunk/osmdroid-android/src/org/osmdroid/tileprovider/modules/MapTileFileStorageProviderBase.java
 END
-NetworkAvailabliltyCheck.java
-K 25
-svn:wc:ra_dav:version-url
-V 108
-/svn/!svn/ver/626/trunk/osmdroid-android/src/org/osmdroid/tileprovider/modules/NetworkAvailabliltyCheck.java
-END
-MBTilesFileArchive.java
-K 25
-svn:wc:ra_dav:version-url
-V 102
-/svn/!svn/ver/927/trunk/osmdroid-android/src/org/osmdroid/tileprovider/modules/MBTilesFileArchive.java
-END
 IArchiveFile.java
 K 25
 svn:wc:ra_dav:version-url
 V 96
 /svn/!svn/ver/680/trunk/osmdroid-android/src/org/osmdroid/tileprovider/modules/IArchiveFile.java
+END
+TileWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/939/trunk/osmdroid-android/src/org/osmdroid/tileprovider/modules/TileWriter.java
 END

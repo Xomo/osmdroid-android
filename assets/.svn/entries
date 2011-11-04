@@ -1,7 +1,7 @@
 10
 
 dir
-909
+991
 http://osmdroid.googlecode.com/svn/trunk/osmdroid-android/assets
 http://osmdroid.googlecode.com/svn
 
@@ -12,7 +12,7 @@ http://osmdroid.googlecode.com/svn
 kurtzmarc
 
 
-svn:special svn:externals svn:needs-lock
+
 
 
 
@@ -26,14 +26,14 @@ svn:special svn:externals svn:needs-lock
 
 349629ee-b03d-11dd-8830-69e4bb380a4a
 
-center.png
+previous.png
 file
 
 
 
 
 2011-02-08T23:01:36.000000Z
-8347f482b6171c29b5ddaf8b7a4cd69c
+c586c9caac946d5ec158d4cc38c5e39c
 2010-06-18T13:25:30.065239Z
 225
 neilboyd
@@ -58,109 +58,7 @@ has-props
 
 
 
-2335
-
-direction_arrow.png
-file
-
-
-
-
-2011-02-08T23:01:36.000000Z
-30f56835a2e25cc62d740f2cb4dcf524
-2010-06-18T13:25:30.065239Z
-225
-neilboyd
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2642
-
-ic_menu_compass.png
-file
-
-
-
-
-2011-02-08T23:01:36.000000Z
-98d5a3a05538c05374b132c914d76bc5
-2011-02-07T02:24:32.558796Z
-778
-kurtzmarc
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3943
-
-ic_menu_mapmode.png
-file
-
-
-
-
-2011-02-08T23:01:36.000000Z
-6c88c338e5c43fae75c14c71c4b736ef
-2011-02-07T02:24:32.558796Z
-778
-kurtzmarc
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1923
+1648
 
 ic_menu_mylocation.png
 file
@@ -196,50 +94,16 @@ has-props
 
 5307
 
-ic_menu_offline.png
-file
-
-
-
-
-2011-03-30T22:14:52.000000Z
-7a943456631a0dd3d3253955d137cd0a
-2011-03-21T04:03:24.922430Z
-892
-kurtzmarc
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4733
-
-marker_default.png
+next.png
 file
 
 
 
 
 2011-02-08T23:01:36.000000Z
-e78cc07d3c0cf5f1da4fd854d2fcb48e
-2010-06-24T07:00:25.984762Z
-244
+80a870a0d627b09cdc17230264b7fdbf
+2010-06-18T13:25:30.065239Z
+225
 neilboyd
 has-props
 
@@ -262,41 +126,7 @@ has-props
 
 
 
-1912
-
-marker_default_focused_base.png
-file
-
-
-
-
-2011-02-08T23:01:36.000000Z
-479d579f9ff6c692ae2d23a05ff443da
-2010-06-24T07:00:25.984762Z
-244
-neilboyd
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-664
+1670
 
 navto_small.png
 file
@@ -332,14 +162,14 @@ has-props
 
 1914
 
-next.png
+center.png
 file
 
 
 
 
 2011-02-08T23:01:36.000000Z
-80a870a0d627b09cdc17230264b7fdbf
+8347f482b6171c29b5ddaf8b7a4cd69c
 2010-06-18T13:25:30.065239Z
 225
 neilboyd
@@ -364,7 +194,143 @@ has-props
 
 
 
-1670
+2335
+
+ic_menu_mapmode.png
+file
+
+
+
+
+2011-02-08T23:01:36.000000Z
+6c88c338e5c43fae75c14c71c4b736ef
+2011-02-07T02:24:32.558796Z
+778
+kurtzmarc
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1923
+
+ic_menu_offline.png
+file
+
+
+
+
+2011-03-30T22:14:52.000000Z
+7a943456631a0dd3d3253955d137cd0a
+2011-03-21T04:03:24.922430Z
+892
+kurtzmarc
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4733
+
+ic_menu_compass.png
+file
+
+
+
+
+2011-02-08T23:01:36.000000Z
+98d5a3a05538c05374b132c914d76bc5
+2011-02-07T02:24:32.558796Z
+778
+kurtzmarc
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3943
+
+marker_default.png
+file
+
+
+
+
+2011-02-08T23:01:36.000000Z
+e78cc07d3c0cf5f1da4fd854d2fcb48e
+2010-06-24T07:00:25.984762Z
+244
+neilboyd
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1912
 
 person.png
 file
@@ -400,14 +366,48 @@ has-props
 
 1531
 
-previous.png
+marker_default_focused_base.png
 file
 
 
 
 
 2011-02-08T23:01:36.000000Z
-c586c9caac946d5ec158d4cc38c5e39c
+479d579f9ff6c692ae2d23a05ff443da
+2010-06-24T07:00:25.984762Z
+244
+neilboyd
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+664
+
+direction_arrow.png
+file
+
+
+
+
+2011-02-08T23:01:36.000000Z
+30f56835a2e25cc62d740f2cb4dcf524
 2010-06-18T13:25:30.065239Z
 225
 neilboyd
@@ -432,5 +432,5 @@ has-props
 
 
 
-1648
+2642
 

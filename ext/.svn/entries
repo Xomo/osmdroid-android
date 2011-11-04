@@ -1,7 +1,7 @@
 10
 
 dir
-785
+991
 http://osmdroid.googlecode.com/svn/trunk/osmdroid-android/ext
 http://osmdroid.googlecode.com/svn
 
@@ -12,7 +12,7 @@ http://osmdroid.googlecode.com/svn
 neilboyd
 
 
-svn:special svn:externals svn:needs-lock
+
 
 
 
@@ -25,40 +25,6 @@ svn:special svn:externals svn:needs-lock
 
 
 349629ee-b03d-11dd-8830-69e4bb380a4a
-
-svnkit.jar
-file
-
-
-
-
-2011-02-08T23:01:35.000000Z
-89bf4327b56c92542fa793376ef0238b
-2010-08-02T13:55:50.553667Z
-305
-neilboyd
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1838335
 
 svntask.jar
 file
@@ -93,4 +59,38 @@ has-props
 
 
 20459
+
+svnkit.jar
+file
+
+
+
+
+2011-02-08T23:01:35.000000Z
+89bf4327b56c92542fa793376ef0238b
+2010-08-02T13:55:50.553667Z
+305
+neilboyd
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1838335
 

@@ -1,18 +1,18 @@
 10
 
 dir
-785
+991
 http://osmdroid.googlecode.com/svn/trunk/osmdroid-android/tests/org/osmdroid
 http://osmdroid.googlecode.com/svn
 
 
 
-2011-01-10T00:35:40.885251Z
-699
+2011-03-16T03:10:02.299299Z
+880
 kurtzmarc
 
 
-svn:special svn:externals svn:needs-lock
+
 
 
 
@@ -25,6 +25,9 @@ svn:special svn:externals svn:needs-lock
 
 
 349629ee-b03d-11dd-8830-69e4bb380a4a
+
+util
+dir
 
 DefaultResourceProxyTest.java
 file
@@ -59,31 +62,4 @@ kurtzmarc
 
 
 1053
-
-util
-dir
-
-views
-dir
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-deleted
 

@@ -1,7 +1,6 @@
 package org.osmdroid.tileprovider;
 
 import java.util.LinkedHashMap;
-import java.util.Map.Entry;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -54,7 +53,7 @@ public class LRUMapTileCache extends LinkedHashMap<MapTile, Drawable> {
 	}
 
 	@Override
-	protected boolean removeEldestEntry(final Entry<MapTile, Drawable> aEldest) {
+	protected boolean removeEldestEntry(final java.util.Map.Entry<MapTile, Drawable> aEldest) {
 		if (size() > mCapacity) {
 			remove(aEldest.getKey());
 			// don't return true because we've already removed it

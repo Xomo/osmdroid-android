@@ -1,7 +1,7 @@
 10
 
 dir
-785
+991
 http://osmdroid.googlecode.com/svn/trunk/osmdroid-android/tests/org/osmdroid/util
 http://osmdroid.googlecode.com/svn
 
@@ -12,7 +12,7 @@ http://osmdroid.googlecode.com/svn
 neilboyd
 
 
-svn:special svn:externals svn:needs-lock
+
 
 
 

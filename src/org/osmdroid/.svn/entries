@@ -1,18 +1,18 @@
 10
 
 dir
-846
+991
 http://osmdroid.googlecode.com/svn/trunk/osmdroid-android/src/org/osmdroid
 http://osmdroid.googlecode.com/svn
 
 
 
-2011-03-02T09:27:41.019083Z
-842
+2011-10-24T08:45:37.134275Z
+991
 neilboyd
 
 
-svn:special svn:externals svn:needs-lock
+
 
 
 
@@ -28,41 +28,19 @@ svn:special svn:externals svn:needs-lock
 
 DefaultResourceProxyImpl.java
 file
-868
-
-
-
-2011-03-10T22:52:00.000000Z
-3ae50ec6c0f6e472581c969923725198
-2011-03-04T03:07:42.660517Z
-859
-kurtzmarc
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4422
+de8cbec13c1924e235d1900210c9d64c
+2011-10-14T14:13:51.993784Z
+989
+neilboyd
 
 LocationListenerProxy.java
 file
-868
+
 
 
 
@@ -94,43 +72,9 @@ kurtzmarc
 
 1695
 
-ResourceProxy.java
-file
-868
-
-
-
-2011-03-10T22:53:14.000000Z
-b5cfc1b11e6bc17c720a44aed43c5e3e
-2011-03-04T03:07:42.660517Z
-859
-kurtzmarc
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1506
-
 SensorEventListenerProxy.java
 file
-868
+
 
 
 
@@ -162,16 +106,28 @@ kurtzmarc
 
 1224
 
-api
-dir
-
-contributor
-dir
-
 events
 dir
 
 tileprovider
+dir
+
+ResourceProxy.java
+file
+
+
+
+
+
+6bfb758a9d287ed2500e089e861d618d
+2011-10-03T11:34:34.858047Z
+988
+neilboyd
+
+api
+dir
+
+contributor
 dir
 
 util

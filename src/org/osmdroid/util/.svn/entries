@@ -1,18 +1,18 @@
 10
 
 dir
-909
+991
 http://osmdroid.googlecode.com/svn/trunk/osmdroid-android/src/org/osmdroid/util
 http://osmdroid.googlecode.com/svn
 
 
 
-2011-03-27T14:52:12.190116Z
-900
-ErikBurrows@gmail.com
+2011-07-12T21:37:21.947038Z
+958
+neilboyd
 
 
-svn:special svn:externals svn:needs-lock
+
 
 
 
@@ -25,142 +25,6 @@ svn:special svn:externals svn:needs-lock
 
 
 349629ee-b03d-11dd-8830-69e4bb380a4a
-
-BoundingBoxE6.java
-file
-
-
-
-
-2011-02-08T23:01:37.000000Z
-6537064716b9cfbe55c462eed77c84e2
-2011-01-30T03:10:59.335315Z
-763
-kurtzmarc
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8957
-
-GEMFFile.java
-file
-
-
-
-
-2011-03-30T22:04:24.000000Z
-fe8ff6a20d0ebe63b0ca7a8b67bf83eb
-2011-03-27T14:52:12.190116Z
-900
-ErikBurrows@gmail.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-18508
-
-GeoPoint.java
-file
-
-
-
-
-2011-03-02T21:47:24.000000Z
-a3dc894d253b56ce2b4f6b20d188ac26
-2011-02-26T19:40:34.044698Z
-823
-neilboyd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-10372
-
-LocationUtils.java
-file
-
-
-
-
-2011-03-10T22:56:18.000000Z
-5fa90dd854f9fa181a99978a245d39f3
-2011-03-10T08:15:36.121257Z
-867
-neilboyd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1164
 
 MyMath.java
 file
@@ -196,6 +60,40 @@ kurtzmarc
 
 1823
 
+GeoPoint.java
+file
+
+
+
+
+2011-07-22T20:25:56.461912Z
+0586cf28ee6952505c2b2423fc02acb2
+2011-07-12T21:37:21.947038Z
+958
+neilboyd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10344
+
 NetworkLocationIgnorer.java
 file
 
@@ -230,6 +128,108 @@ neilboyd
 
 1063
 
+BoundingBoxE6.java
+file
+
+
+
+
+2011-02-08T23:01:37.000000Z
+6537064716b9cfbe55c462eed77c84e2
+2011-01-30T03:10:59.335315Z
+763
+kurtzmarc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8957
+
+LocationUtils.java
+file
+
+
+
+
+2011-07-22T20:25:56.461912Z
+908adbf740b6f4b35bb5deb029b22e3d
+2011-07-01T05:01:04.806554Z
+945
+neilboyd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1221
+
 constants
 dir
+
+GEMFFile.java
+file
+
+
+
+
+2011-07-22T20:25:56.461912Z
+e6aa7840d84ec352d3835ca0a911d5e3
+2011-07-05T15:41:29.124106Z
+946
+neilboyd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18730
 
